@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo, Galeria de Fotos e Música</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #3498db, #ecf0f1); /* Altere as cores conforme necessário */
+        }
+
+        /* Adicione estilos conforme necessário para a apresentação visual */
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .photo {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+        <h1>Meu Vídeo</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/seuCodigoDoVideo" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <h2>Galeria de Fotos</h2>
+    <div class="photo-gallery">
+        <img class="photo" src="caminho/para/imagem1.jpg" alt="Descrição da Imagem 1">
+        <img class="photo" src="caminho/para/imagem2.jpg" alt="Descrição da Imagem 2">
+        <!-- Adicione mais imagens conforme necessário -->
+    </div>
+
+    <h2>Música de Fundo</h2>
+    <audio controls loop>
+        <source src="caminho/para/musica.mp3" type="audio/mp3">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+</body>
+</html>
